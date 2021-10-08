@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+
+.frontImg{
+  height: 30%;
+}
+
+
+
+.background{
+   /* The image */
+   background-image: url("./Components/Image/map-of-the-world-gadc439d09_1920.jpg");
+  /* Background colour if image is unavailable */
+    background-color: #5b7ba8;
+   /* Set a specified height */
+    height: 400px;
+   /* Center the image */
+    background-position: center;
+   /* Do not repeat the image */
+    background-repeat: no-repeat;
+   /* Resize the background image to cover the entire container */
+    background-size: cover;
+    position: relative;
+}
+
+
+.headerText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.headerText h1,
+h2 {
+	-webkit-text-stroke: 0.15vw black;
+	color: transparent;
+	margin: 0 0 40px 0;
+}
+.headerText h1 {
+	font-size: 4rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+.headerText h2 {
+	font-size: 2rem;
+	text-transform: capitalize;
+}
