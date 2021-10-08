@@ -1,4 +1,4 @@
-# Country Details with country API
+# Country Details with Country API
 
 
 Its a React app where API key is used for collecting data and display it.
